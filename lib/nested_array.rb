@@ -37,8 +37,8 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
-  produce_storage_room[row][column]
-  produce_storage_room
+  matrix[row][column]
+  matrix
 end
 
 def matrix_update(matrix, row, column, new_value)
